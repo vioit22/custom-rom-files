@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wdth,wght@0,87.5,100..900;1,87.5,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Condensed:ital,wght@0,400..700;1,400..700&display=swap');
+body{
+	background-image:url("https://c4.wallpaperflare.com/wallpaper/692/863/727/vista-ultimate-black-1-wallpaper-preview.jpg");
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	text-align: left;
+	color:white;
+}
+
+button{
+	border: 1px solid rgb(255, 0, 0);
+	background: linear-gradient( rgb(13, 223, 238), rgb(2, 151, 250), rgb(3, 32, 197));
+	border-radius: 20%;
+	cursor: pointer;
+	text-align: center;
+	color: rgb(8, 0, 255);
+}
+
+#clock{
+	font-family: 'Libre Caslon Condensed', sans-serif;
+	font-size: 20px;
+	color: rgb(0, 85, 255);
+}
+#clock:hover{
+	font-family: 'Libre Caslon Condensed', sans-serif;
+	color: red;
+	cursor: default;
+}
+
+b, h4{
+    font-family: 'Imbue', sans-serif;
+    font-size: 15px;
+}
+
+@keyframes animationVio{
+	10% {
+		color: red;
+		font-weight: bold;
+	}
+}
+
+h2{
+	animation: animationVio 1.75s infinite;
+}
+
+b:hover{
+	color:rgb(0, 170, 255);
+}
+summary:hover{
+	color:rgb(0, 170, 255);
+}
+.download-button:hover{
+	color:rgb(252, 252, 252);
+}
+
+strong:hover{
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+	cursor: pointer;
+	font-family: 'Libre Caslon Condensed', sans-serif;
+}
+@keyframes animationVIT{
+	30%{
+		color: rgb(0, 255, 0);
+	}
+	50%{
+		color: blue;
+	}
+	75%{
+		color: rgb(0, 255, 229);
+	}
+	100%{
+		color: white;
+	}
+}
+
+h1{
+	animation: animationVIT 5s alternate infinite;
+}
