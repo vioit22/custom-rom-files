@@ -43,7 +43,11 @@ b, h4{
 h2{
 	animation: animationVio 1.75s infinite;
 }
+.email-button:hover{
+	
+	color: white;
 
+}
 b:hover{
 	color:rgb(0, 170, 255);
 }
